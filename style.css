@@ -61,7 +61,7 @@ nav {
 
 
 button {
-    background: #f4a261;
+    background: #4aea22;
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
@@ -80,8 +80,17 @@ button::before {
     left: 50%;
     width: 0;
     height: 0;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(216, 117, 117, 0.3);
     border-radius: 50%;
     transform: translate(-50%, -50%);
     transition: width 0.4s, height 0.4s;
+}
+
+button:hover::before {
+    width: 200%;
+    height: 200%;
+}
+
+button:hover {
+    background: #e76f51;
 }
