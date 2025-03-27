@@ -7,23 +7,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Deezer API Base URLs
     const BASE_SEARCH_URL = "https://api.deezer.com/search?q=";
-    const PLAYLIST_URL = "https://api.deezer.com/playlist/908622995"; // Replace with a valid playlist ID
+    const PLAYLIST_URL = "https://api.deezer.com/playlist/908622995"; 
 
-// Function to search for songs
-searchButton.addEventListener("click", function () {
-    let query = searchInput.value.trim();
-    if (!query) return alert("Please enter a song or artist name");
+    // Playlist details
+    const playlistTitle = document.createElement("h2");
+    const playlistDescription = document.createElement("p");
+    const playlistImage = document.createElement("img");
+    playlistContainer.prepend(playlistImage, playlistTitle, playlistDescription);
 
-    fetch(`${BASE_SEARCH_URL}${query}`)
-        .then(response => response.json())
-        .then(data => {
-            displaySearchResults(data.data);
-        })
-        .catch(error => console.error("Error fetching search results:", error));
+
+
+
+
+
 });
-
-
-
-
-
-
