@@ -56,3 +56,7 @@ nav {
     font-weight: bold;
     transition: color 0.3s;
 }
+
+.nav-links li a:hover {
+    color: #f4a261;
+}
