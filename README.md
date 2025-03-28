@@ -26,18 +26,24 @@ The Music Playlist App is a web-based application that allows users to search fo
 
 ## Features
 
-- Search for songs using a public API
-- Play, pause, and skip tracks
-- Create and manage playlists
-- Shuffle and repeat functionality
-- User-friendly and responsive design
+- Search for songs by title or artist.
+
+- Display search results with cover images and preview buttons.
+
+- Add songs to a playlist.
+
+- Play song previews using an audio player.
+
+- Responsive design for better user experience.
+
+- Technologies 
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- Public API for music data
+- JSON Serve
 
 ## License
 
