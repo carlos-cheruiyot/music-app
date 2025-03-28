@@ -10,19 +10,27 @@ The Music Playlist App is a web-based application that allows users to search fo
 
 ## Project Setup Instructions
 
-1. Clone the repository:
-   ```sh
-   https://github.com/carlos-cheruiyot/music-app
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd music-playlist-app
-   ```
-3. Open `index.html` in a browser to run the app.
+Setup Instructions
 
+1. Install JSON Server
+
+Ensure you have Node.js installed, then run:
+
+npm install -g json-server
+
+2. Start the JSON Server
+
+Run the following command in the terminal:
+
+json-server --watch db.json --port 3000
+
+This will start the JSON server at http://localhost:3000/songs.
+
+3. Run the App
+
+Open index.html in your browser or use Live Server in VS Code.
 ## Live Site
-
-[https://github.com/carlos-cheruiyot/music-app](https://github.com/carlos-cheruiyot/music-app)
+(https://github.com/carlos-cheruiyot/music-app)
 
 ## Features
 
