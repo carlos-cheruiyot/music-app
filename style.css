@@ -140,6 +140,14 @@ input[type="text"] {
     background: rgb(239, 172, 3);
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+    #playlistList li {
+        width: 100%;
+    }
+
+}
+
 footer {
     margin-top: 4rem;
     padding: 0rem;
