@@ -1,0 +1,25 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "title": "Bohemian Rhapsody",
+            "artist": "Queen",
+            "cover": "./cool.jpeg",
+            "preview": "./NDA.mp3"
+        },
+        {
+            "id": 2,
+            "title": "Billie Jean",
+            "artist": "Michael Jackson",
+            "cover": "./cursor.jpeg",
+            "preview": "./tom.mp3"
+        },
+        {
+            "id": 3,
+            "title": "Somewhere far",
+            "artist": "Ed Sheeran",
+           "cover": "./music.jpeg",
+            "preview": "./some.mp3"
+        }
+    ]
+}
